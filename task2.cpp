@@ -15,11 +15,15 @@ int main()
     {
     case '+':
         cout << "Sum of " << num1 << " and " << num2 << " is " << (num1 + num2);
+        break;
     case '-':
         cout << "Difference of " << num1 << " and " << num2 << " is " << (num1 - num2);
+        break;
     case '*':
         cout << "Product of " << num1 << " and " << num2 << " is " << (num1 * num2);
+        break;
     case '/':
         cout << "Quotient of " << num1 << " and " << num2 << " is " << (num1 / num2);
+        break;
     }
 }
